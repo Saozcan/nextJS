@@ -10,7 +10,11 @@ export default function About() {
         </Head>
         <div>
             Hello This is about section...
+            <style jsx>{`
+              div {
+              text-align: center;
+              }
+            `}</style>
         </div>
-        <Link href='/'><a>Home</a></Link>
     </>
 }
